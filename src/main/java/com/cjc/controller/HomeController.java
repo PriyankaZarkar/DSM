@@ -85,13 +85,5 @@ public class HomeController {
 		return "success";
 		
 	}
-	
-	@RequestMapping("/LoGIN")
-	public String update(@ModelAttribute Student stud,Address address,Model m){
-		stud.setAddress(address);
-		List<Student> list=s.update(stud);
-		
-		
-	}
 
 }
